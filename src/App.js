@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Excel} from './Componenets/Excel';
+import Export from './Componenets/Export';
+import QRCode from './Componenets/QRCode';
+import Pdf from './Componenets/Pdf';
+import Email from './Componenets/Email';
+import Mui from './Componenets/Mui';
+import UseReducer from './Componenets/UseReducer';
 
 function App() {
+  /*const fileName="TechnicalAdda";
+  const viewer=[
+    {id:1,name:'Yogita'},
+    {id:2,name:'Sonpitale'}
+    /* <Excel csvData={viewer} fileName={fileName}/>
+  ]*/
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <Export/>
+    <QRCode />
+    <Pdf />
+    <Email />
+  <Mui/>*/}
+     <UseReducer/>
     </div>
   );
 }
