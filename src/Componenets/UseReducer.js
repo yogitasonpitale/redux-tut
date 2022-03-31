@@ -19,6 +19,7 @@ function UseReducer() {
         <p>{state}</p>
         <button onClick={()=>dispatch({type:"INCREMENT" })}>Inc</button>
         <button onClick={()=>dispatch({type:"DECREMENT" })}>Dec</button>
+    <h1>hello</h1>
     </div>
   )
 }
